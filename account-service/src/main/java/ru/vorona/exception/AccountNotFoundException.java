@@ -1,4 +1,4 @@
-package ru.vorona.excaption;
+package ru.vorona.exception;
 
 public class AccountNotFoundException extends RuntimeException{
     public AccountNotFoundException(String message) {
