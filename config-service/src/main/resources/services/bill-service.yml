@@ -9,10 +9,10 @@ spring:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/bill_service_database
     username: postgres
-    password: root
+    password: qwerty80
     driver-class-name: org.postgresql.Driver
 
 server:
   servlet:
-    context-path: /accounts
+    context-path: /bills
   port: 8082

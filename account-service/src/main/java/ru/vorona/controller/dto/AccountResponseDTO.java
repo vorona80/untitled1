@@ -1,9 +1,7 @@
 package ru.vorona.controller.dto;
 
 import lombok.AllArgsConstructor;
-import lombok.Data;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import ru.vorona.entity.Account;
 
 import java.time.OffsetDateTime;
@@ -27,7 +25,7 @@ public class AccountResponseDTO {
     public AccountResponseDTO(Account account) {
         accountId = account.getAccountId();
         name = account.getName();
-        email = account.getPhone();
+        email = account.getEmail();
         phone = account.getPhone();
         creationTime = account.getCreationTime();
         bills = account.getBills();
