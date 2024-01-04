@@ -3,7 +3,7 @@ package ru.vorona.service;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.vorona.entity.Account;
-import ru.vorona.excaption.AccountNotFoundException;
+import ru.vorona.exception.AccountNotFoundException;
 import ru.vorona.repository.AccountRepository;
 
 import java.time.OffsetDateTime;
